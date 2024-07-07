@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background-color: rgb(65, 133, 223);
+}
+
+nav {
+    background-color: rgb(65, 133, 223);
+    color: rgb(9, 11, 105);
+    padding: 15px;
+
+
+}
+
+li,
+ul,
+h1 {
+
+    display: inline;
+
+}
+
+ul {
+    margin-left: 60%;
+
+}
+
+li {
+    color: rgb(250, 251, 252);
+}
+
+li:hover {
+    color:darkblue;
+    cursor: pointer;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+
+}
+
+.searchbar {
+    padding: 15px;
+    text-align: center;
+
+
+}
+
+.box {
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    border-width: 2px;
+    display: inline-block;
+    width: 285px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-left: 125px;
+}
+.basic{
+    margin: 10px;
+    text-align: center;
+}
+.products {
+margin-top: 30px;
+    text-align: center;
+}
+
+.box:hover {
+
+    background-color: lightblue;
+    color: rgb(4, 42, 73);
+}
+
+.contact {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border: 10px;
+}
+
+.registerationlink {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.registerationlink:hover {
+    cursor: pointer;
+    color: rgb(83, 72, 240);
+}
+
+.tmc {
+    color: aliceblue;
+    margin-left: 80%;
+}
+
+.tmc:hover {
+    cursor: pointer;
+    margin-left: 80%;
+    color: aqua;
+}
+
+.details {
+    text-align: center;
+    padding-left: 40%;
+    margin: 20px;
+
+}
+
+.register {
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+.offer img {
+
+    margin: 20px;
+}
+.texting{
+text-align: center;
+margin-bottom :20px;
+
+
+}
+.MG Comet {
+
+    margin: 35px;
+    margin-left: 30%;
+
+}
+
+.intr {
+right: 50%;
+    color: white;
+}
+.intr:hover{
+    cursor: pointer;
+    color: blue;
+
+
+}
+.intr{
+    margin-right: 50%;
+   
+    
+}
+@media screen and (max-width:480px) {
+    .header{
+        width: 86rem;
+        font-size: 33px;
+    }
+    .searchbar{
+        width: 83rem;
+    }
+    .texting{
+        font-size: 29px;
+        width: 84rem;
+    }
+    .basic{
+        width: 84rem;
+    font-size: 26px;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        width: 84rem;
+    }
+    .contact{
+        width: 80rem;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .header{
+        width: 86rem;
+        font-size: 33px;
+    }
+    .searchbar{
+        width: 83rem;
+    }
+    .texting{
+        font-size: 29px;
+        width: 84rem;
+    }
+    .basic{
+        width: 84rem;
+    font-size: 26px;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        width: 84rem;
+    }
+    .contact{
+        width: 80rem;
+    }
+    
+}
+@media screen and (max-width:1300px){
+    .header{
+        width: 86rem;
+        font-size: 33px;
+    }
+    .searchbar{
+        width: 83rem;
+    }
+    .texting{
+        font-size: 29px;
+        width: 84rem;
+    }
+    .basic{
+        width: 84rem;
+    font-size: 26px;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        width: 84rem;
+    }
+    .contact{
+        width: 80rem;
+    }
+    
+}
